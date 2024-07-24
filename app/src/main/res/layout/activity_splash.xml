@@ -14,20 +14,19 @@
         android:scaleType="centerCrop"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-1dp"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/titulo0"
+        style="@style/estilo_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="serif"
         android:text="¿Donde esta mi balneario?"
         android:textAlignment="center"
-        android:textSize="48sp"
-        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashActivity extends AppCompatActivity {
-
+//Codigo profesor
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
         class splashActivity extends AppCompatActivity {
 
             private static final int SPLASH_TIME_OUT = 3000;
-
+//Parte del codigo del profesor
             @Override
             protected void onCreate(Bundle savedInstanceState) {
                 super.onCreate(savedInstanceState);
